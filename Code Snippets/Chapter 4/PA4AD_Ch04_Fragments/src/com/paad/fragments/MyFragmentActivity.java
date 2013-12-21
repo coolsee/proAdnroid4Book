@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MyFragmentActivity extends Activity {
 
   public void onCreate(Bundle savedInstanceState) {
+		Log.d("MyFragmentActivity", "onCreate");
     super.onCreate(savedInstanceState);
 
     // Inflate the layout containing the Fragment containers
@@ -21,6 +23,7 @@ public class MyFragmentActivity extends Activity {
       (DetailsFragment)fm.findFragmentById(R.id.details_container);
     
     if (detailsFragment == null) {
+    	Log.d("MyFragmentActivity", "null");
        FragmentTransaction ft = fm.beginTransaction(); 
        ft.add(R.id.details_container, new DetailsFragment());
        ft.add(R.id.ui_container, new MyListFragment());

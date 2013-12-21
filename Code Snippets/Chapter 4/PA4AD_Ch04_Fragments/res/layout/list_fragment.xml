@@ -7,4 +7,29 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="List Fragment" />
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="TextView" />
+
+  <ListView
+      android:id="@+id/listView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+  </ListView>
+
 </LinearLayout>

@@ -3,16 +3,17 @@
   android:orientation="horizontal"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
+
   <FrameLayout
-    android:id="@+id/ui_container"
-    android:layout_width="match_parent" 
-    android:layout_height="match_parent" 
-    android:layout_weight="1"
-  />
+      android:id="@+id/ui_container"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="2.20" />
+
   <FrameLayout
-    android:id="@+id/details_container"
-    android:layout_width="match_parent" 
-    android:layout_height="match_parent" 
-    android:layout_weight="3"
-  />
+      android:id="@+id/details_container"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="2.24" />
+
 </LinearLayout> 
